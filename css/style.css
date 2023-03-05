@@ -1576,6 +1576,7 @@ html[dir="ltr"] .video-section::after {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  pointer-events: none;
   transition: all 0.3s ease-in-out;
 }
 .video-ancor:hover .youtube-icon {
@@ -1635,7 +1636,7 @@ html[dir="ltr"] .video-section::after {
   line-height: 25px;
 }
 .video-link:hover {
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .video-slider .swiper-btn {
