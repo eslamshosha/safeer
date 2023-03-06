@@ -82,42 +82,6 @@ $(document).ready(function () {
     });
   }
 
-  ///////// **about-us** /////////
-  var aboutSlider = new Swiper(".about-us .swiper-container", {
-    loop: false,
-    autoplay: false,
-    allowTouchMove: false,
-    observer: true,
-    observeParents: true,
-    preloadImages: false,
-    pagination: {
-      el: ".about-us .swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      0: {
-        loop: true,
-        autoplay: { enabled: true },
-        allowTouchMove: true,
-        slidesPerView: 1,
-      },
-      767: {
-        loop: true,
-        autoplay: { enabled: true },
-        allowTouchMove: true,
-        slidesPerView: 2,
-        spaceBetween: 30,
-      },
-      992: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1199: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-    },
-  });
   ///////// **sponsors-section** /////////
   var sponsorsSlider = new Swiper(".sponsors-section .swiper-container", {
     loop: true,
