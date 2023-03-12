@@ -113,6 +113,11 @@ $(document).ready(function () {
         spaceBetween: 30,
       },
     },
+    on: {
+      init: function (swiper) {
+        lazyLoad();
+      },
+    },
   });
   ///////// **news-section** /////////
   var newsSider = new Swiper(".news-section .swiper-container", {
